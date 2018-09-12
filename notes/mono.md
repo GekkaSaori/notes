@@ -56,11 +56,11 @@ int main() {
 
 题意：给一棵树，可以剪掉任意多棵子树，权值为剩下的子树的权值之和。求最大权值。
 
-题解：贪心 + DP。明显的如果一棵子树的权值为负数我们当然不能选择这棵子树。那么直接 DP 记录
+题解：贪心 + DP。明显的如果一棵子树的权值为负数我们当然不能选择这棵子树。那么直接记忆化搜索记录
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTQ4MDM4MSwxMDMwNzEyMTM2LC04MD
-Y4MzMxNjYsNjg1MzE5OTE5LC02ODk5MDY3OCwyNzgwODU4ODQs
-LTI5MTAyODg5MywtMTU5MTkwODM1NywxOTI1MDA4NDc2LDEyMz
-A2NzAwNDAsNzkxMjIzNzgyLDE1ODU3NjM4OSwtMTg3MTE3MTU3
-OV19
+eyJoaXN0b3J5IjpbLTEyMTQxNzg1NDcsLTYwMTQ4MDM4MSwtOD
+A2ODMzMTY2LDY4NTMxOTkxOSwtNjg5OTA2NzgsMjc4MDg1ODg0
+LC0yOTEwMjg4OTMsLTE1OTE5MDgzNTcsMTkyNTAwODQ3NiwxMj
+MwNjcwMDQwLDc5MTIyMzc4MiwxNTg1NzYzODksLTE4NzExNzE1
+NzldfQ==
 -->
