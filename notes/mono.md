@@ -52,10 +52,11 @@ int main() {
 ```
 八数码问题，简单的 BFS 加上对状态的简单记录。
 
+### [最大子树和](https://www.luogu.org/record/show?rid=10655795)
 
+题意：给一棵
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYzMjE0NDIsMjc4MDg1ODg0LC0yOT
-EwMjg4OTMsLTE1OTE5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcw
-MDQwLDc5MTIyMzc4MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ
-==
+eyJoaXN0b3J5IjpbLTY4OTkwNjc4LDI3ODA4NTg4NCwtMjkxMD
+I4ODkzLC0xNTkxOTA4MzU3LDE5MjUwMDg0NzYsMTIzMDY3MDA0
+MCw3OTEyMjM3ODIsMTU4NTc2Mzg5LC0xODcxMTcxNTc5XX0=
 -->
