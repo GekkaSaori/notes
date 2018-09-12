@@ -10,9 +10,51 @@
 
 以下通过几道例题来加深对记忆化搜索的理解。主要是一些基础的树形 DP 和一些基础的记忆化。
 
-在此之前先
+在此之前先水一发简单的搜索练练手：
+```cpp
+#include <cstdio>
+#include <queue>
+#include <unordered_map>
+using namespace std;
+deque<int> q;
+int s;
+int c[3][3];
+unordered_map<int, int> vis;
+int dx[] = {0, -1, 0, 1}, dy[] = {1, 0, -1, 0};
+int main() {
+  scanf("%d", &s);
+  q.push_back(s);
+  vis[s] = 0;
+  while(!q.empty()) {
+    int x = q.front();
+    int u = x;
+    q.pop_front();
+    if(x == 123804765) break;
+    int cx = 0, cy = 0;
+    for(int i = 2; i >= 0; --i) for(int j = 2; j >= 0; --j) {
+        c[i][j] = x % 10, x /= 10;
+        if(!c[i][j]) cx = i, cy = j;
+      }
+    for(int k = 0; k < 4; ++k) {
+      int xx = cx + dx[k], yy = cy + dy[k];
+      if(xx < 0 || xx > 2 || yy < 0 || yy > 2) continue;
+      swap(c[cx][cy], c[xx][yy]);
+      int code2 = 0;
+      for(int i = 0; i < 3; ++i) for(int j = 0; j < 3; ++j)
+          code2 = code2 * 10 + c[i][j];
+      if(!vis.count(code2)) q.push_back(code2), vis[code2] = vis[u] + 1;
+      swap(c[cx][cy], c[xx][yy]);
+    }
+  }
+  printf("%d\n", vis[123804765]);
+  return 0;
+}
+```
+八数码问题，简单的 BFS 加上对状态的简单记录。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MDg1ODg0LC0xMjIzNzMyNDY0LC0yOT
+eyJoaXN0b3J5IjpbLTExOTYzMjE0NDIsMjc4MDg1ODg0LC0yOT
 EwMjg4OTMsLTE1OTE5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcw
 MDQwLDc5MTIyMzc4MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ
 ==
