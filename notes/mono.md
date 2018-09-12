@@ -10,9 +10,10 @@
 
 以下通过几道例题来加深对记忆化搜索的理解。主要是一些基础的树形 DP 和一些基础的记忆化。
 
-在此之前
+在此之前先
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM3MzI0NjQsLTI5MTAyODg5MywtMT
-U5MTkwODM1NywxOTI1MDA4NDc2LDEyMzA2NzAwNDAsNzkxMjIz
-NzgyLDE1ODU3NjM4OSwtMTg3MTE3MTU3OV19
+eyJoaXN0b3J5IjpbMjc4MDg1ODg0LC0xMjIzNzMyNDY0LC0yOT
+EwMjg4OTMsLTE1OTE5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcw
+MDQwLDc5MTIyMzc4MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ
+==
 -->
