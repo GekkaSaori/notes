@@ -8,9 +8,9 @@
 
 其本质与记忆化搜索一致，同样是通过对状态的合理规划来达到避免重复解决重复子问题的思想。
 
-通过几道例题来
+以下通过几道例题来加深对记忆化搜索的理解。主要是一些基础的树形 DP 和一些
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTAyODg5Myw2NDI3NDY2ODEsLTE1OT
-E5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcwMDQwLDc5MTIyMzc4
-MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ==
+eyJoaXN0b3J5IjpbLTU4MDYwODYzOCwtMjkxMDI4ODkzLC0xNT
+kxOTA4MzU3LDE5MjUwMDg0NzYsMTIzMDY3MDA0MCw3OTEyMjM3
+ODIsMTU4NTc2Mzg5LC0xODcxMTcxNTc5XX0=
 -->
