@@ -8,9 +8,9 @@
 
 其本质与记忆化搜索一致，同样是通过对状态的合理规划来达到避免重复解决重复子问题的思想。
 
-通过几道
+通过几道例题来
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNzQ2NjgxLDE4OTIxMzY0MzcsLTE1OT
+eyJoaXN0b3J5IjpbLTI5MTAyODg5Myw2NDI3NDY2ODEsLTE1OT
 E5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcwMDQwLDc5MTIyMzc4
 MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ==
 -->
