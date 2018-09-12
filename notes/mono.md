@@ -2,8 +2,8 @@
 
 ### 记忆化搜索初步
 
-记忆化搜索常用于树形 DP、状压 DP 等不容易直接写出状态转移方程的动态规划。尤其是树形 DP 这种无法
+记忆化搜索常用于树形 DP、状压 DP 等不容易直接写出状态转移方程的动态规划。尤其是树形 DP 这种无法写出一般形式的状态转移方程的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMjIzNzgyLC0yNjY2MTMyNTMsMTU4NT
+eyJoaXN0b3J5IjpbMTIzMDY3MDA0MCw3OTEyMjM3ODIsMTU4NT
 c2Mzg5LC0xODcxMTcxNTc5XX0=
 -->
