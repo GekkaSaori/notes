@@ -54,9 +54,9 @@ int main() {
 
 ### [最大子树和](https://www.luogu.org/record/show?rid=10655795)
 
-题意：给一棵树，可以剪掉一棵子树
+题意：给一棵树，可以剪掉一棵子树，价值为剩下的子树的权值之和。求最大权值。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjI4MDQ4NCw2ODUzMTk5MTksLTY4OT
+eyJoaXN0b3J5IjpbLTgwNjgzMzE2Niw2ODUzMTk5MTksLTY4OT
 kwNjc4LDI3ODA4NTg4NCwtMjkxMDI4ODkzLC0xNTkxOTA4MzU3
 LDE5MjUwMDg0NzYsMTIzMDY3MDA0MCw3OTEyMjM3ODIsMTU4NT
 c2Mzg5LC0xODcxMTcxNTc5XX0=
