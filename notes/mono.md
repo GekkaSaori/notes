@@ -54,10 +54,12 @@ int main() {
 
 ### [最大子树和](https://www.luogu.org/record/show?rid=10655795)
 
-题意：给一棵树，可以剪掉一棵子树，价值为剩下的子树的权值之和。求最大权值。
+题意：给一棵树，可以剪掉任意多棵子树，权值为剩下的子树的权值之和。求最大权值。
+
+题解：贪心 + DP。明显的如果一棵子树的权值为负数我们当然不能选择这棵子树。那么直接 DP 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjgzMzE2Niw2ODUzMTk5MTksLTY4OT
-kwNjc4LDI3ODA4NTg4NCwtMjkxMDI4ODkzLC0xNTkxOTA4MzU3
-LDE5MjUwMDg0NzYsMTIzMDY3MDA0MCw3OTEyMjM3ODIsMTU4NT
-c2Mzg5LC0xODcxMTcxNTc5XX0=
+eyJoaXN0b3J5IjpbMTAzMDcxMjEzNiwtODA2ODMzMTY2LDY4NT
+MxOTkxOSwtNjg5OTA2NzgsMjc4MDg1ODg0LC0yOTEwMjg4OTMs
+LTE1OTE5MDgzNTcsMTkyNTAwODQ3NiwxMjMwNjcwMDQwLDc5MT
+IyMzc4MiwxNTg1NzYzODksLTE4NzExNzE1NzldfQ==
 -->
